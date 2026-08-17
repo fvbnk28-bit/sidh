@@ -2,6 +2,7 @@
 
 Project provides a Go implementation of  (ephemeral) supersingular isogeny Diffie-Hellman (SIDH) and supersingular isogeny key exchange (SIKE), as specified in [SIDH-spec, PQC NIST Submission](http://sike.org/files/SIDH-spec.pdf) (Nov 30, 2017).
 
+
 Portions of the field arithmetic were ported from the Microsoft Research implementation.
 
 The SIDH package does NOT implement key validation. It means that it should only be
